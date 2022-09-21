@@ -1,0 +1,23 @@
+{
+  "name": "petra-wallet-types",
+  "version": "0.0.1",
+  "description": "A typescript types package for the Petra wallet's dapp interface.",
+  "types": "index.d.ts",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aptos-labs/petra-wallet-types.git"
+  },
+  "keywords": [
+    "Aptos",
+    "Petra",
+    "Wallet"
+  ],
+  "bugs": {
+    "url": "https://github.com/aptos-labs/petra-wallet-types/issues"
+  },
+  "homepage": "https://github.com/aptos-labs/petra-wallet-types#readme"
+}
