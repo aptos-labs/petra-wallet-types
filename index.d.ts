@@ -6,11 +6,11 @@ declare global {
 }
 
 export interface Aptos {
-  connect(): AddressInfo;
-  isConnected(): boolean;
-  account(): AddressInfo;
-  disconnect(): undefined;
-  network(): string;
+  connect(): Promise<AddressInfo>;
+  isConnected(): Promise<boolean>;
+  account(): Promise<AddressInfo>;
+  disconnect(): Promise<void>;
+  network(): Promise<string>;
   requestId: number;
   eventListenerMap: object;
   signAndSubmitTransaction(
